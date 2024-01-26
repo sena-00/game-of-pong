@@ -42,14 +42,14 @@ def draw(win, paddles):
 
 def handle_paddle_movement(keys, left_paddle, right_paddle):
     # press w = goes up press s = down / arrow up = up, arrow down = down
-    if keys[pygame.K_w]:
+    if keys[pygame.K_w] and left_paddle.y - left_paddle.VEL >= 0:
         left_paddle.move(up=True)
-    if keys[pygame.K_s]:
+    if keys[pygame.K_s] and left_paddle.y + left_paddle.VEL + left_paddle.height <= HEIGHT:
         left_paddle.move(up=False)
 
-    if keys[pygame.K_UP]:
+    if keys[pygame.K_UP] and right_paddle.y - right_paddle.VEL >= 0:
         right_paddle.move(up=True)
-    if keys[pygame.K_DOWN]:
+    if keys[pygame.K_DOWN] and right_paddle.y + right_paddle.VEL + right_paddle.height <= HEIGHT:
         right_paddle.move(up=False)
 
 #loop to check if the application is running
