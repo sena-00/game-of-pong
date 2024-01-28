@@ -1,1 +1,1 @@
-# Game of Pong
+# Welcome to Game of Pong
