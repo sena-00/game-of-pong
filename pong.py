@@ -156,10 +156,10 @@ def main():
 
         # adds the ball and resets it, if the ball goes out of screen
         if ball.x < 0:
-            right_score += 1
+            left_score += 1
             ball.reset()
         elif ball.x > WIDTH:
-            left_score += 1
+            right_score += 1
             ball.reset()
 
         # loop for the winning player/end game
