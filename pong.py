@@ -166,10 +166,10 @@ def main():
         won = False
         if left_score >= WINNING_SCORE:
             won = True
-            win_text = "Left Player Won!"
+            win_text = "Right Player Won!"
         elif right_score >= WINNING_SCORE:
             won = True
-            win_text = "Right Player Won!"
+            win_text = "Left Player Won!"
         
         # actions for the first player to score 8 points
         if won:
