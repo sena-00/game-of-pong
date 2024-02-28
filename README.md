@@ -5,7 +5,7 @@
 <p align="center">
 This is a project inspired by the Atari Pong, crated in 1972.  
 <p align="center">
-The program have been developed in Python relying heavily on pygame library. 
+The game has been developed in Python relying heavily on pygame library. 
 <p align="center">
 First player to score 8 points, wins!
 <p align="center">
