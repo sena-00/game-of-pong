@@ -9,7 +9,7 @@ The game has been developed in Python relying heavily on pygame library.
 <p align="center">
 First player to score 8 points, wins!
 <p align="center">
-For Left Player, use W and S keys. For Right Player, use Up Arrow and Down Arrow.
+For Left Player, use W and S keys. For Right Player, use Up Arrow and Down Arrow. 
     
 </p>
 
